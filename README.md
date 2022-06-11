@@ -9,11 +9,10 @@ This script looks for `*.front.pdf` and `*.back.pdf` (with the same name as *)\
 and combines them into a single file
 
 ```
-    Front page 1
-    Back page  1
-    Front page 2
-    Back page  2
-    
+Front page 1
+Back  page 1
+Front page 2
+Back  page 2
 ```
 
 ## reverse
