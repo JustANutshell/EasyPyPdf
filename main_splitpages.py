@@ -65,7 +65,7 @@ def main():
     global keepopen
 
     try:
-        files = getfiles.getfiles()
+        files = getfiles()
     except CustomException as e:
         print("")
         print("ERROR: "+str(e.message))
