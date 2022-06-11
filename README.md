@@ -1,11 +1,11 @@
 # EasyPyPdf
  
-a collection of small pdf tools in python\
-they are intended to be used on windows with the "send to" context menu option
+A collection of small pdf tools in python\
+They are intended to be used on Windows with the "send to" context menu option
 
 ## combine front and back
 
-looks for `*.front.pdf` and `*.back.pdf` (with the same name as *)\
+This script looks for `*.front.pdf` and `*.back.pdf` (with the same name as *)\
 and combines them into a single file
 
 ```
@@ -18,11 +18,12 @@ and combines them into a single file
 
 ## reverse
 
-reverses the pages of the file and overwrites it
+This script reverses the order of pages in a file
+(it overwrites the original file)
 
 ## split pages
 
-saves every page in a single pdf
+This script saves every page in a single pdf
 
 # requirements
 
@@ -34,7 +35,7 @@ pip install pikepdf
 
 press [Win]+[R]\
 enter `shell:sendto`\
-a folder will open\
+a folder will open
 
 here you need to create a link for every `main_*.py` script
 
